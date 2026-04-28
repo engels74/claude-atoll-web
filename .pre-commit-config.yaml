@@ -24,6 +24,7 @@ repos:
         entry: bunx biome check --write
         language: system
         files: \.(js|mjs|ts|json|css|svelte)$
+        exclude: ^src/env\.d\.ts$
         pass_filenames: true
 
       - id: astro-check

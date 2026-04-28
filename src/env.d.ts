@@ -1,4 +1,5 @@
 /// <reference types="astro/client" />
+/// <reference types="bun" />
 
 declare namespace astroHTML.JSX {
   interface HTMLAttributes extends import('@unocss/preset-attributify').AttributifyAttributes {}
